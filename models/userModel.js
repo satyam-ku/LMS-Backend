@@ -5,5 +5,5 @@ const userSchema = mongoose.Schema({
   password: { type: String, required: true },
   role: { type: String, default: "user" },
 });
-const userModel = mongoose.model("users",userSchema)
+const userModel = mongoose.model("student",userSchema)
 export default userModel
